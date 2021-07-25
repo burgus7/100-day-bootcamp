@@ -3,8 +3,13 @@
 
 Python Projects ranging from beginner to advanced. 
 
+## Levels
 Beginner: Day 1-14
+
 Intermediate: Day 15-31
+
 Intermediate+: Day 32-57
+
 Advanced: Day 58-80
+
 Professional: Day 81-100
