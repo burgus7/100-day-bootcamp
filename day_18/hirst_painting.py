@@ -29,19 +29,18 @@ for x in range(-edge_x, edge_x, radius*2+gap):
         pen.begin_fill()
         pen.circle(radius)
         pen.end_fill()
-
-def draw_box():
-    edge_x += gap
-    edge_y += gap
-
-    pen.penup()
-    pen.goto(-edge_x-2*radius, -edge_y-2*radius)
-    pen.color((0, 0, 0))
-    pen.down()
-    pen.goto(edge_x, -edge_y-2*radius)
-    pen.goto(edge_x, edge_y)
-    pen.goto(-edge_x-2*radius, edge_y)
-    pen.goto(-edge_x-2*radius, -edge_y-2*radius)
+#
+# edge_x += gap
+# edge_y += gap
+#
+# pen.penup()
+# pen.goto(-edge_x-2*radius, -edge_y-2*radius)
+# pen.color((0, 0, 0))
+# pen.down()
+# pen.goto(edge_x, -edge_y-2*radius)
+# pen.goto(edge_x, edge_y)
+# pen.goto(-edge_x-2*radius, edge_y)
+# pen.goto(-edge_x-2*radius, -edge_y-2*radius)
 
 
 screen.exitonclick()
