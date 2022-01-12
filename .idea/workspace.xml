@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef98c2ef-e27b-42c0-b08f-5a7433b92955" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day_23/car.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_23/car_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_23/player.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_23/scoreboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_23/turtle_crossing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_23/car.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_23/car.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_23/car_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_23/car_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_23/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_23/player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_23/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_23/scoreboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_23/turtle_crossing.py" beforeDir="false" afterPath="$PROJECT_DIR$/day_23/turtle_crossing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +45,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/day_23/turtle_crossing.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunManager">
     <configuration name="turtle_crossing" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -90,18 +91,57 @@
       <workItem from="1638483748704" duration="863000" />
       <workItem from="1639089268824" duration="1210000" />
       <workItem from="1640389840748" duration="19047000" />
-      <workItem from="1641840069696" duration="2068000" />
+      <workItem from="1641840069696" duration="11565000" />
+      <workItem from="1641924953643" duration="4462000" />
     </task>
+    <task id="LOCAL-00001" summary="Day 23 Attempt">
+      <created>1641848610960</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1641848610960</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Day 23 Attempt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 23 Attempt" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day_23/scoreboard.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day_23/scoreboard.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day_23/scoreboard.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day_23/scoreboard.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/100_day_bootcamp$turtle_racing.coverage" NAME="turtle_racing Coverage Results" MODIFIED="1628521502330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_19" />
     <SUITE FILE_PATH="coverage/100_day_bootcamp$pong_game.coverage" NAME="silent_auction Coverage Results" MODIFIED="1638483838670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_09" />
     <SUITE FILE_PATH="coverage/100_day_bootcamp$band_name_generator.coverage" NAME="tip_calculator Coverage Results" MODIFIED="1626879560136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/100_day_bootcamp$tip_calculator.coverage" NAME="snake_game Coverage Results" MODIFIED="1628475990918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_20_21" />
-    <SUITE FILE_PATH="coverage/100_day_bootcamp$turtle_crossing.coverage" NAME="turtle_crossing Coverage Results" MODIFIED="1641841501322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_23" />
+    <SUITE FILE_PATH="coverage/100_day_bootcamp$turtle_crossing.coverage" NAME="turtle_crossing Coverage Results" MODIFIED="1641951724056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day_23" />
   </component>
 </project>
