@@ -17,6 +17,7 @@ if __name__ == "__main__":
 
     screen.listen()
     screen.onkey(player.move, "Up")
+    screen.onkey(player.move, "w")
 
     #score_board.countdown(screen)
 

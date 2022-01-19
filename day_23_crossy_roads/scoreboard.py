@@ -7,6 +7,8 @@ SMALLER_FONT = ("Courier", 20, "normal")
 class Scoreboard:
     def __init__(self):
         self.level = 1
+        with open("high_score.txt", mode="r") as data:
+            self.high_score = int(data.read())
         t.penup()
         t.hideturtle()
         self.write_score()
@@ -59,6 +61,14 @@ class Scoreboard:
         t.write("Game Over", font=FONT, align="center")
         t.goto(0, -30)
         t.write(f"You got to Level {self.level}", font=SMALLER_FONT, align="center")
+        t.goto(0, -60)
+        disp_text = f"High Score: {self.high_score}"
+        if self.level > self.high_score:
+            self.high_score = self.level
+            with open("high_score.txt", mode="r") as data:
+                data.write(f"{self.high_score}")
+            disp_text = "New High Score!!"
+        t.write(f"{disp_text}", font=SMALLER_FONT, align="center")
         t.done()
         # TODO add best score
         # t.goto(0, -60)
