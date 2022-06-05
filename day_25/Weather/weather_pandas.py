@@ -2,7 +2,7 @@ import pandas
 
 data = pandas.read_csv("weather_data.csv")
 print(type(data))
-print(data["temp"])
+print(data)#["temp"])
 
 # DataFrame - 2D array
 # Series - 1D array (like a list)
