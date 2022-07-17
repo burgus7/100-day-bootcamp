@@ -6,22 +6,17 @@ screen = turtle.Screen()
 angle = 10
 dist = 10
 
-
 def move_forward():
     cur.forward(dist)
-
 
 def move_back():
     cur.back(dist)
 
-
 def turn_right():
     cur.right(angle)
 
-
 def turn_left():
     cur.left(angle)
-
 
 def clear_board():
     cur.clear()
